@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+.outerBox{
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px solid #343434;
+    border-radius: 30px;
+    text-align: center;
+    color: #212529;
+    background-color: #b0afaf;
+    box-shadow: 5px 5px 30px 10px rgb(10, 10, 10);  
+}
+ 
+
+.heading{
+    width: 100%;
+    height: 25%;
+}
+h2 , h3 {
+    margin-top: 50px; 
+    font-size: larger;  
+}
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.boxBody{
+    width: 100%;
+    height: 50%;
+}
+
+.playGround{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+    grid-template-rows: repeat(2,150px);
+    gap: 30px;
+    padding: 10px;
+     
+}
+.box {
+    width: 150px;
+    height: 150px;
+    border: 6px solid #343434;
+    border-radius: 30px;
+    gap: 20px;
+}
+
+.footer{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    width: 30%;
+    padding: 20px;
+    border: 3px solid #343434;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    background-color: #007bff;
+    transition: 100ms;
+}
+.btn:hover{
+    color: white ;
+    background-color: #013874;
+}
+.flash{
+    background-color: white;
+    box-shadow: 0 0 10px 10px  gold;
+}
+
+.userflash{
+    background-color: rgb(18, 177, 132);
+    box-shadow: 0 0 10px 10px  rgb(18, 177, 132);
+    width: 140px;
+    height: 140px;
+}
+
+.gameover{
+    background-color: rgb(233, 38, 38);
+}
